@@ -1,7 +1,9 @@
+import Loader from "../components/Loader";
+
 export default function Home() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Loader show />
     </div>
   );
 }
